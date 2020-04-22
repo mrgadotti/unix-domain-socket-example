@@ -10,3 +10,6 @@ server:
 
 client:
 	gcc -o bin/client client.c
+
+clean:
+	rm -rf bin/
