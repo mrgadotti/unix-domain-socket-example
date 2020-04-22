@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <sys/socket.h>
 #include <sys/un.h>
-#include "ipc.h"
+
+#define CLIENT_SOCK_FILE "client.sock"
+#define SERVER_SOCK_FILE "server.sock"
 
 int main() {
 	int fd;

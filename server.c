@@ -3,6 +3,8 @@
 #include <sys/un.h>
 #include "ipc.h"
 
+#define SERVER_SOCK_FILE "server.sock"
+
 int main() {
 	int fd;
 	struct sockaddr_un addr;
